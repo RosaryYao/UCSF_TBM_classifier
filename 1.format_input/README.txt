@@ -14,7 +14,7 @@ The output file is a .csv file with 19,590 protein-coding genes used as input fo
 
 Instructions for use
 
-python extract_PCG.py data_files/test1_combined_data.txt data_files/test_set_1.csv
+python extract_PCG.py data_files/part_example_test1_combined_data.txt data_files/part_example_test_set_1.csv
 
 The data_files folder contains the mock_combined_data.txt which is a tab delimited file with gene count information across 114 samples. This python script uses ENSG_GeneSymbol_list.csv, also provided in the same folder, to identify the protein coding genes from the inputted .txt file.
 

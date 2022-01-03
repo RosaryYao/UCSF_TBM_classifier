@@ -8,6 +8,6 @@ The output of this python script has two columns, with column 1 = sample ID and 
 
 Instructions for use
 
-python 7gene_test_set.py data_files/combined_test.csv data_files/test_preds_7gene.csv
+python 7gene_test_set.py ../all_raw_data/combined_test.csv output/test_preds_7gene.csv
 
 

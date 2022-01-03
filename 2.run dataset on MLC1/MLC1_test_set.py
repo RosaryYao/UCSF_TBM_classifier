@@ -23,8 +23,8 @@ warnings.filterwarnings("ignore")
 inFile = sys.argv[1]
 outFile = sys.argv[2]
 
-dataframe1 = pd.read_csv('data_files/training_validation.csv').set_index('ensembl') 
-dfb = pd.read_csv('data_files/metadata.csv').set_index('samples')
+dataframe1 = pd.read_csv('../all_raw_data/training_validation.csv').set_index('ensembl') 
+dfb = pd.read_csv('../all_raw_data/metadata.csv').set_index('samples')
 
 df_TEST = pd.read_csv(inFile).set_index('ensembl')
 
